@@ -7,7 +7,7 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 
 # Load the pretrained model
-model = load_model('mnist-v1.keras')  # Replace with your model path
+model = load_model('./test.keras')  # Replace with your model path
 
 class DrawingApp(QWidget):
     def __init__(self):
